@@ -7759,6 +7759,7 @@ a.tarif:before {
 .basket-story_table .row-string .stat-setting label {
 	overflow: hidden;
 	padding-right: 30px;
+	max-height: 30px;
 }
 
 .basket-story_table .row-string .stat-setting {
@@ -7793,7 +7794,7 @@ a.tarif:before {
 }
 
 .basket-story_table .row-string .stat-setting .tooltipped:before {
-	content: "\f11a";
+	content: "\f11f";
 	float: right;
 	font-size: 16px;
 	color: #6f6f6f;
@@ -7801,7 +7802,7 @@ a.tarif:before {
 }
 
 [type="checkbox"].filled-in:not(:checked) + span:not(.lever):before {
-	top: 23px;
+	top: 26px;
 }
 
 .material-tooltip {
