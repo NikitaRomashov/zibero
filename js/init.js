@@ -100,7 +100,7 @@ $(document).ready(function () {
 	// MODALS ----------------
 	$('.modal').modal();
 	$('.dropdown-trigger').dropdown();
-	/*// MODALS noclose click----------------
+	// MODALS noclose click----------------
 	$('.modal').modal();
 	$('.dropdown-trigger.noclose').dropdown({
 		closeOnClick: false,
@@ -114,7 +114,7 @@ $(document).ready(function () {
 	 console.log('223');
 	 
 	  $( "#verifi-phone").dropdown().open(1);
-});*/
+});
 	$(function () {
 		$('.resize').resizable({
 			handles: 'se',
