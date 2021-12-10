@@ -1897,6 +1897,7 @@ header .search .select-wrapper .dropdown-content {
 	top: 50px !important;
 	box-sizing: border-box;
 	width: 250px !important;
+	z-index: 9999;
 }
 
 header .search .select-wrapper .dropdown-content li span {
@@ -15249,9 +15250,11 @@ input.acc-info-product.input.acc-info-product__text {
 	margin-bottom: 15px;
 	color: #000000;
 }
-.search-wrap {
+#search-location .search-wrap,
+#filter-category .search-wrap {
 	border: 1px solid #9f9fb9;
 }
+
 .search-field {
 	font-style: normal;
 	font-weight: normal;
