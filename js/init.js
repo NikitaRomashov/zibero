@@ -104,17 +104,17 @@ $(document).ready(function () {
 	$('.modal').modal();
 	$('.dropdown-trigger.noclose').dropdown({
 		closeOnClick: false,
-		onCloseEnd: function() {
-		  console.log('Modal closed');
-		
+		onCloseEnd: function () {
+			console.log('Modal closed');
+
 
 		},
 	});
- $( "#trigger-id-change" ).click(function() {
-	 console.log('223');
-	 
-	  $( "#verifi-phone").dropdown().open(1);
-});
+	$("#trigger-id-change").click(function () {
+		console.log('223');
+
+		$("#verifi-phone").dropdown().open(1);
+	});
 	$(function () {
 		$('.resize').resizable({
 			handles: 'se',
@@ -228,5 +228,13 @@ $(document).ready(function () {
 	//  $('.zoom').zoom();
 
 
+
+	$('.header-cat-slider').slick({
+
+		infinite: true,
+		slidesToShow: 8,
+		slidesToScroll: 1,
+		variableWidth: true
+	});
 
 });
